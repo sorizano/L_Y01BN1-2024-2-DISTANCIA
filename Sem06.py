@@ -23,10 +23,10 @@ if st.button("Ejecutar Ejercicio 3"):
 ###################################################################################################################
 
 #Ejercicio 4: Calcular la media y comparar con 10
-st.subheader("Ejercicio 1: Comparar 10 números con el valor 10")
+st.subheader("Ejercicio 4: Comparar 10 números con el valor 10")
 numeros_ej1 = st.text_input("Ingresa 10 números separados por comas:", "12, 7, 15, 10, 20, 5, 10, 9, 8, 11")
 
-if st.button("Ejecutar Ejercicio 1"):
+if st.button("Ejecutar Ejercicio 4"):
     # Convertir la cadena de entrada a una lista de números
     lista_numeros = [int(num) for num in numeros_ej1.split(",")]
     media = sum(lista_numeros) / len(lista_numeros)
