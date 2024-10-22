@@ -19,5 +19,3 @@ def mostrar_menu():
         st.write("¡Saliendo del menú!")
             
 
-if __name__ == "__main__":
-    mostrar_menu()
