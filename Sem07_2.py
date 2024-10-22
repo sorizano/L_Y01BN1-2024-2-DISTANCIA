@@ -33,5 +33,5 @@ def verificar_automoviles():
         st.success("Datos reiniciados correctamente")
 
 #Ejecutar la función
-if __name__ == "__main__"
+if __name__ == "__main__":
 verificar_automoviles()
