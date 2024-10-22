@@ -29,7 +29,7 @@ def verificar_automoviles():
     
     #Opción para reiniciar los datos
     if st.button("Reiniciar datos"):
-        se.session_state.puntos_contaminantes = []
+        st.session_state.puntos_contaminantes = []
         st.success("Datos reiniciados correctamente")
 
 #Ejecutar la función
