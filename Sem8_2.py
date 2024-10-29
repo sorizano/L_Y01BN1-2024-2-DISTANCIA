@@ -12,9 +12,9 @@ def calcular(operacion, num1, num2):
         return num1+num2
     elif operacion == "Resta":
         return num1-num2
-    elif operacion == "Multiplicación"
+    elif operacion == "Multiplicación":
         return num1*num2
-    elif operacion == "División"
+    elif operacion == "División":
         if num2 == 0:
             return "Error: no se puede dividir entre 0"
         return num1/num2
@@ -33,7 +33,7 @@ def main():
     num2 = st.text_input("Número 2")
 
     #Botón para calcular
-    if st.button("Calcular")
+    if st.button("Calcular"):
         resultado = calcular(operacion, nu1, num2)
         st.write("**Resultado:**", resultado)
 
