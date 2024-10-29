@@ -1,6 +1,6 @@
 import streamlit as st
 
-def calcular(operacion, num1, num2)
+def calcular(operacion, num1, num2):
     """Realiza la operación especificada entre num1 y num2."""
     try:
         num1 = float(num1)
