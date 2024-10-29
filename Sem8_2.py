@@ -37,5 +37,5 @@ def main():
         resultado = calcular(operacion, nu1, num2)
         st.write("**Resultado:**", resultado)
 
-if __name__ == "__main__"
+if __name__ == "__main__":
     main()
